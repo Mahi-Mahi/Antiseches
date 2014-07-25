@@ -1,0 +1,33 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background:#A7A69F;
+}
+#global {
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+}
+#conteneur {
+	height:600px;
+	width: 800px;
+	position : absolute;
+    top : 50%;
+	left : 50%;
+    margin-top : -300px;
+    margin-left : -400px;
+}
+#anim {
+	border:none;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	width:800px;
+	height:600px;
+	box-shadow: 0px 0px 15px rgba(70, 70, 70, 0.4);
+}
